@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.seckill.dao.SecKillDao">
+   <update id="reduceQuantity" >
+       update seckill
+       set quantity=quantity-1
+       where secKill_id=#{secKillId}
+       and start_time  <![CDATA[ <= ]]> #{killTime}
+       and end_time>=#{killTime}
+       and quantity>0
+
+   </update>
+    <select id="queryById" resultType="SecKill">
+        select seckill_id ,name,quantity,start_time,end_time,create_time
+        from seckill
+        where seckill_id=#{seckillId}
+    </select>
+    <select id="queryAll" resultType="SecKill">
+        select *
+        from (select rownum as rowno, t.*
+        from (select seckill_id, name,quantity,
+                      start_time, end_time, create_time
+                      from seckill
+                      order by create_time desc
+                      ) t
+        where rownum <![CDATA[ <= ]]>  #{limit} )
+        where rowno > #{offset}
+    </select>
+    <insert id="addItem">
+        insert into seckill (NAME, QUANTITY, START_TIME, END_TIME) values
+        (#{name},#{quantity},#{startTime},#{endTime})
+    </insert>
+    <select id="executionSeckill" statementType="CALLABLE">
+        call seckill_execution(
+        #{id,jdbcType=BIGINT,mode=IN},
+        #{phone,jdbcType=VARCHAR,mode=IN},
+        #{killTime,jdbcType=DATE,mode=IN},
+        #{result,jdbcType=BIGINT,mode=OUT}
+        )
+    </select>
+
+</mapper>

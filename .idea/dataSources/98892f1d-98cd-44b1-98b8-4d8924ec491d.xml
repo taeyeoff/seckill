@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.11">
+    <root id="1">
+      <ServerVersion>12.2.0.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="SCOTT">
+      <ObjectId>108</ObjectId>
+      <IntrospectionTimestamp>2019-02-11.03:06:09</IntrospectionTimestamp>
+      <CreatedTimestamp>2019-01-21.00:58:01</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-05.21:25:40</ModifiedTimestamp>
+      <CommentsHash>71427879378777</CommentsHash>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="DBSFWUSER">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ORACLE_OCM">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="SYS$UMF">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="DBSNMP">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="APPQOSSYS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="GSMCATUSER">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="GGSYS">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="XDB">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="ANONYMOUS">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="WMSYS">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="OJVMSYS">
+      <ObjectId>81</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="CTXSYS">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="ORDSYS">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="ORDDATA">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="ORDPLUGINS">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="MDSYS">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="OLAPSYS">
+      <ObjectId>93</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="MDDATA">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="LBACSYS">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="HR">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="ROOT">
+      <ObjectId>107</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="42" parent="2" name="SEQ_SECKILL">
+      <ObjectId>75558</ObjectId>
+      <CreatedTimestamp>2019-02-03.02:17:12</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-03.02:17:12</ModifiedTimestamp>
+      <SequenceIdentity>1000</SequenceIdentity>
+    </sequence>
+    <table id="43" parent="2" name="BONUS">
+      <ObjectId>73831</ObjectId>
+      <CreatedTimestamp>2019-01-21.01:00:08</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-21.01:00:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="44" parent="2" name="DEPT">
+      <ObjectId>73823</ObjectId>
+      <CreatedTimestamp>2019-01-21.00:58:01</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-21.00:58:01</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="45" parent="2" name="EMP">
+      <ObjectId>73829</ObjectId>
+      <CreatedTimestamp>2019-01-21.01:00:08</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-01.23:22:22</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="46" parent="2" name="PM_CI">
+      <ObjectId>74533</ObjectId>
+      <CreatedTimestamp>2019-01-24.04:16:15</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-24.04:16:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="47" parent="2" name="PM_STU">
+      <ObjectId>74535</ObjectId>
+      <CreatedTimestamp>2019-01-24.04:22:10</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-24.04:22:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="48" parent="2" name="SALGRADE">
+      <ObjectId>73832</ObjectId>
+      <CreatedTimestamp>2019-01-21.01:00:08</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-21.01:00:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="49" parent="2" name="SECKILL">
+      <ObjectId>75641</ObjectId>
+      <Comment>秒杀库存表</Comment>
+      <CreatedTimestamp>2019-02-03.20:18:50</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-03.20:18:50</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="50" parent="2" name="SUCCESS_SECKILLED">
+      <ObjectId>75667</ObjectId>
+      <Comment>秒杀成功明细表</Comment>
+      <CreatedTimestamp>2019-02-03.21:11:17</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-05.21:25:40</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <package id="51" parent="2" name="MYPACKET">
+      <ObjectId>74787</ObjectId>
+      <SourceTextLength>145</SourceTextLength>
+      <CreatedTimestamp>2019-01-26.04:11:40</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-26.04:11:40</ModifiedTimestamp>
+    </package>
+    <routine id="52" parent="2" name="FIRST">
+      <ObjectId>74689</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>256</SourceTextLength>
+      <DependsOnIds>7267,73829</DependsOnIds>
+      <CreatedTimestamp>2019-01-24.20:55:03</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-25.03:22:40</ModifiedTimestamp>
+    </routine>
+    <routine id="53" parent="2" name="FUN">
+      <ObjectId>74718</ObjectId>
+      <RoutineKind>function</RoutineKind>
+      <SourceTextLength>262</SourceTextLength>
+      <DependsOnIds>73829</DependsOnIds>
+      <CreatedTimestamp>2019-01-25.07:34:05</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-25.07:34:16</ModifiedTimestamp>
+    </routine>
+    <routine id="54" parent="2" name="TOUT">
+      <ObjectId>74723</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>219</SourceTextLength>
+      <DependsOnIds>73829</DependsOnIds>
+      <CreatedTimestamp>2019-01-25.07:43:11</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-25.07:43:11</ModifiedTimestamp>
+    </routine>
+    <column id="55" parent="43" name="ENAME">
+      <Position>1</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+    </column>
+    <column id="56" parent="43" name="JOB">
+      <Position>2</Position>
+      <DataType>VARCHAR2(9 byte)|0s</DataType>
+    </column>
+    <column id="57" parent="43" name="SAL">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="58" parent="43" name="COMM">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="59" parent="44" name="DEPTNO">
+      <Position>1</Position>
+      <DataType>NUMBER(2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="44" name="DNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(14 byte)|0s</DataType>
+    </column>
+    <column id="61" parent="44" name="LOC">
+      <Position>3</Position>
+      <DataType>VARCHAR2(13 byte)|0s</DataType>
+    </column>
+    <index id="62" parent="44" name="PK_DEPT">
+      <ObjectId>73824</ObjectId>
+      <CreatedTimestamp>2019-01-21.00:58:01</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-21.00:58:01</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>DEPTNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="63" parent="44" name="PK_DEPT">
+      <ModifiedTimestamp>2019-01-21.00:58:01</ModifiedTimestamp>
+      <ColNames>DEPTNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_DEPT</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="64" parent="45" name="EMPNO">
+      <Position>1</Position>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="45" name="ENAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+    </column>
+    <column id="66" parent="45" name="JOB">
+      <Position>3</Position>
+      <DataType>VARCHAR2(9 byte)|0s</DataType>
+    </column>
+    <column id="67" parent="45" name="MGR">
+      <Position>4</Position>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+    </column>
+    <column id="68" parent="45" name="HIREDATE">
+      <Position>5</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="69" parent="45" name="SAL">
+      <Position>6</Position>
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+    </column>
+    <column id="70" parent="45" name="COMM">
+      <Position>7</Position>
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+    </column>
+    <column id="71" parent="45" name="DEPTNO">
+      <Position>8</Position>
+      <DataType>NUMBER(2 digit)|0s</DataType>
+    </column>
+    <index id="72" parent="45" name="PK_EMP">
+      <ObjectId>73830</ObjectId>
+      <CreatedTimestamp>2019-01-21.01:00:08</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-21.01:00:08</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMPNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="45" name="PK_EMP">
+      <ModifiedTimestamp>2019-01-21.01:00:08</ModifiedTimestamp>
+      <ColNames>EMPNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_EMP</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="74" parent="45" name="FK_DEPTNO">
+      <ModifiedTimestamp>2019-01-21.01:00:08</ModifiedTimestamp>
+      <ColNames>DEPTNO</ColNames>
+      <RefSchemaName>SCOTT</RefSchemaName>
+      <RefTableName>DEPT</RefTableName>
+      <RefKeyName>PK_DEPT</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <trigger id="75" parent="45" name="CHECKTIME">
+      <ObjectId>75303</ObjectId>
+      <SourceTextLength>151</SourceTextLength>
+      <DependsOnIds>1749</DependsOnIds>
+      <CreatedTimestamp>2019-02-01.23:51:48</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-01.23:55:25</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-stmt</Turn>
+    </trigger>
+    <trigger id="76" parent="45" name="SAY">
+      <ObjectId>75295</ObjectId>
+      <SourceTextLength>81</SourceTextLength>
+      <DependsOnIds>7267</DependsOnIds>
+      <CreatedTimestamp>2019-02-01.23:27:25</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-01.23:29:36</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>after-stmt</Turn>
+    </trigger>
+    <trigger id="77" parent="45" name="CHECKSALARY">
+      <ObjectId>75304</ObjectId>
+      <SourceTextLength>139</SourceTextLength>
+      <DependsOnIds>1749</DependsOnIds>
+      <CreatedTimestamp>2019-02-02.00:08:50</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-02.00:08:50</ModifiedTimestamp>
+      <Events>U</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="78" parent="46" name="CI_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(8 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="46" name="STU_IDS">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <index id="80" parent="46" name="SYS_C007986">
+      <ObjectId>74534</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-01-24.04:16:15</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-24.04:16:15</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CI_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="81" parent="46" name="SYS_C007986">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-01-24.04:16:15</ModifiedTimestamp>
+      <ColNames>CI_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007986</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="82" parent="47" name="STU_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(8 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="47" name="STU_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <index id="84" parent="47" name="PK_PM_STU_ID">
+      <ObjectId>74536</ObjectId>
+      <CreatedTimestamp>2019-01-24.04:22:10</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-24.04:22:10</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>STU_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="85" parent="47" name="PK_PM_STU_ID">
+      <ModifiedTimestamp>2019-01-24.04:22:10</ModifiedTimestamp>
+      <ColNames>STU_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_PM_STU_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="86" parent="48" name="GRADE">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="87" parent="48" name="LOSAL">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="88" parent="48" name="HISAL">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="89" parent="49" name="SECKILL_ID">
+      <Position>1</Position>
+      <Comment>商品库存id</Comment>
+      <DataType>NUMBER(20 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="49" name="NAME">
+      <Position>2</Position>
+      <Comment>商品名称</Comment>
+      <DataType>VARCHAR2(120 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="49" name="QUANTITY">
+      <Position>3</Position>
+      <Comment>数量</Comment>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="49" name="START_TIME">
+      <Position>4</Position>
+      <Comment>秒杀开始时间</Comment>
+      <DataType>TIMESTAMP(6)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="49" name="END_TIME">
+      <Position>5</Position>
+      <Comment>秒杀结束时间</Comment>
+      <DataType>TIMESTAMP(6)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="49" name="CREATE_TIME">
+      <Position>6</Position>
+      <Comment>创建时间</Comment>
+      <DataType>TIMESTAMP(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>current_timestamp</DefaultExpression>
+    </column>
+    <index id="95" parent="49" name="PK_SECKILL">
+      <ObjectId>75642</ObjectId>
+      <CreatedTimestamp>2019-02-03.20:18:50</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-03.20:18:50</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SECKILL_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="96" parent="49" name="IDX_START_TIME">
+      <ObjectId>75643</ObjectId>
+      <CreatedTimestamp>2019-02-03.20:22:38</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-03.20:22:38</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>START_TIME</ColNames>
+    </index>
+    <index id="97" parent="49" name="IDX_END_TIME">
+      <ObjectId>75644</ObjectId>
+      <CreatedTimestamp>2019-02-03.20:22:38</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-03.20:22:38</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>END_TIME</ColNames>
+    </index>
+    <index id="98" parent="49" name="IDX_CREATE_TIME">
+      <ObjectId>75645</ObjectId>
+      <CreatedTimestamp>2019-02-03.20:22:39</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-03.20:22:39</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CREATE_TIME</ColNames>
+    </index>
+    <key id="99" parent="49" name="PK_SECKILL">
+      <ModifiedTimestamp>2019-02-03.20:18:50</ModifiedTimestamp>
+      <ColNames>SECKILL_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_SECKILL</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <trigger id="100" parent="49" name="AUTO_INCREMENT_SECKILL">
+      <ObjectId>75650</ObjectId>
+      <SourceTextLength>129</SourceTextLength>
+      <DependsOnIds>143,75558</DependsOnIds>
+      <CreatedTimestamp>2019-02-03.20:27:34</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-03.20:27:43</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="101" parent="50" name="SECKILL_ID">
+      <Position>1</Position>
+      <Comment>秒杀商品id</Comment>
+      <DataType>NUMBER(20 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="50" name="PHONE">
+      <Position>2</Position>
+      <Comment>用户手机号</Comment>
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="50" name="STATE">
+      <Position>3</Position>
+      <Comment>状态标示:-1:无效 0:成功 1:已付款</Comment>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>-1
+</DefaultExpression>
+    </column>
+    <column id="104" parent="50" name="CREATE_TIME">
+      <Position>4</Position>
+      <Comment>创建时间</Comment>
+      <DataType>TIMESTAMP(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>current_timestamp
+</DefaultExpression>
+    </column>
+    <index id="105" parent="50" name="PK_SUCCESS_SECKILLED">
+      <ObjectId>75668</ObjectId>
+      <CreatedTimestamp>2019-02-03.21:11:18</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-03.21:11:18</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SECKILL_ID
+PHONE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="106" parent="50" name="IDX_SUCCESS_CREATE_TIME">
+      <ObjectId>75673</ObjectId>
+      <CreatedTimestamp>2019-02-03.21:21:44</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-03.21:21:44</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CREATE_TIME</ColNames>
+    </index>
+    <key id="107" parent="50" name="PK_SUCCESS_SECKILLED">
+      <ModifiedTimestamp>2019-02-03.21:11:18</ModifiedTimestamp>
+      <ColNames>SECKILL_ID
+PHONE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_SUCCESS_SECKILLED</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <body id="108" parent="51" name="MYPACKET">
+      <ObjectId>74788</ObjectId>
+      <SourceTextLength>201</SourceTextLength>
+      <DependsOnIds>73829</DependsOnIds>
+      <CreatedTimestamp>2019-01-26.04:11:41</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-26.04:20:46</ModifiedTimestamp>
+    </body>
+    <routine id="109" parent="51" name="QUERYEMPLIST">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <alias-type id="110" parent="51" name="empcursor">
+      <NameScripted>1</NameScripted>
+    </alias-type>
+    <argument id="111" parent="52" name="PAR">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="112" parent="53">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="113" parent="53" name="ENO">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="114" parent="54" name="ENO">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="115" parent="54" name="ENA">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="116" parent="54" name="EJOB">
+      <Position>3</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+    </argument>
+    <argument id="117" parent="109" name="DNO">
+      <Position>1</Position>
+      <DataType>NUMBER|0s</DataType>
+    </argument>
+    <argument id="118" parent="109" name="EMPLIST">
+      <Position>2</Position>
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>REF CURSOR|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
